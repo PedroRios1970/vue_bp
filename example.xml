@@ -1,0 +1,15 @@
+<select>
+    <columns>
+       ????????????????
+    </columns>
+    <from table = 'gdelegac'>       
+        <join table = 'gdelegac_etiq'>
+            <on>gdelegac.codigo = gdelegac_etiq.delega where gdelegac_etiq.tipus = 0 and gdelegac.feccie = '00-00-0000'</on>            
+        </join>
+    </from>
+    <where>
+         ??????????????   
+    </where>
+
+</select>
+    
